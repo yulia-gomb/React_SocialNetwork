@@ -1,0 +1,38 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "server": "webpack serve --open"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "ITSTEP",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "dotenv-webpack": "^7.0.2",
+    "less-loader": "^8.1.1",
+    "prettier": "^2.2.1",
+    "prettier-webpack-plugin": "^1.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "less": "^4.1.1"
+  }
+}
