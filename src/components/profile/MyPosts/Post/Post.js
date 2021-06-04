@@ -1,11 +1,11 @@
 import React from "react";
 import style from "./Post.module.css";
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div className={style.item}>
       <img src="https://peopletalk.ru/wp-content/uploads/2016/11/1480331127.jpg" />
-      Post 1
+      {props.message}
       <div>
         <span>Like</span>
       </div>
