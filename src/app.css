@@ -11,26 +11,3 @@ ul li {
   grid-template-rows: 60px 1fr;
   grid-gap: 10px;
 }
-
-.header {
-  grid-area: header;
-  background-color: aquamarine;
-}
-
-.header img {
-  width: 100px;
-}
-
-.nav {
-  grid-area: nav;
-  background-color: aqua;
-}
-
-.content {
-  grid-area: content;
-  background-color: antiquewhite;
-}
-
-.content img {
-  max-width: 100vh;
-}
