@@ -1,4 +1,15 @@
 .nav {
   grid-area: nav;
   background-color: aqua;
+  padding: 20px;
+}
+
+a {
+  color: white;
+}
+a.active {
+  color: gold;
+}
+a:hover {
+  color: gold;
 }
