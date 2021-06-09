@@ -4,9 +4,16 @@ import Post from "@comp/profile/MyPosts/Post/Post";
 
 const MyPosts = () => {
   return (
-    <div>
-      <div>My posts</div>
-
+    <div className={style.postBlocks}>
+      <h3>My posts</h3>
+      <div>
+        <div>
+          <textarea></textarea>
+        </div>
+        <div>
+          <button>Add post</button>
+        </div>
+      </div>
       <Post message="Hi! How are you?" />
       <Post message="It`s my first post" />
     </div>

@@ -1,17 +1,12 @@
 import React from "react";
 import style from "./profile.module.css";
 import MyPosts from "@comp/profile/MyPosts/Post/MyPosts";
+import ProfileInfo from "@comp/profile/profileInfo/profileInfo";
 
 const Profile = () => {
   return (
     <div>
-      <div>
-        <img
-          src="https://sbims.com/wp-content/uploads/2017/04/Association_Membership_Networking_Connections.jpg"
-          alt="img"
-        />
-      </div>
-      <div>Ava + description</div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );
