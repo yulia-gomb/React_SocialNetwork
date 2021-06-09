@@ -1,9 +1,10 @@
 .nav {
   grid-area: nav;
-  background-color: aqua;
+  background-color: cadetblue;
   padding: 20px;
   margin: 30px;
-  border: #6c757d solid 1px;
+  border: 1px solid #ede9e9;
+  border-radius: 3px;
 }
 
 a {

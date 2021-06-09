@@ -1,9 +1,15 @@
 .dialogs {
   display: grid;
   grid-template-columns: 2fr 10fr;
+
+  border: 1px solid #ede9e9;
+  border-radius: 3px;
+
+  color: #545454;
 }
 .dialogItems {
   padding: 10px;
+  background-color: #6c757d;
 }
 .dialog {
 }
@@ -12,6 +18,7 @@
 }
 .messages {
   padding: 10px;
+  background-color: #fdfdfd;
 }
 .message {
 }
