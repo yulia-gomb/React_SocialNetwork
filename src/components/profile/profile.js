@@ -7,7 +7,11 @@ const Profile = () => {
   return (
     <div>
       <ProfileInfo />
-      <MyPosts />
+      <MyPosts
+      /*id={posts.id}
+        message={posts.message}
+        countLike={posts.countLike}*/
+      />
     </div>
   );
 };
