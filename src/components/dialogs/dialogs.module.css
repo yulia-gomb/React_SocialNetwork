@@ -11,14 +11,27 @@
   padding: 10px;
   background-color: #6c757d;
 }
-.dialog {
-}
+
 .active {
   color: gold;
 }
 .messages {
-  padding: 10px;
+  padding: 30px;
   background-color: #fdfdfd;
 }
 .message {
+  border: #6c757d solid 1px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.message img {
+  height: 35px;
+  margin: 0 10px 0 10px;
+  border-radius: 20px;
+}
+.dialog img {
+  height: 50px;
+  margin: 10px;
+  border-radius: 20px;
 }

@@ -4,7 +4,7 @@ import style from "./profileInfo.module.css";
 const ProfileInfo = () => {
   return (
     <div>
-      <div>
+      <div className={style.mainImg}>
         <img
           src="https://sbims.com/wp-content/uploads/2017/04/Association_Membership_Networking_Connections.jpg"
           alt="img"
