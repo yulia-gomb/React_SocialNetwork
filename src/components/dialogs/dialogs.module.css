@@ -19,16 +19,29 @@
   padding: 30px;
   background-color: #fdfdfd;
 }
+.messages textarea {
+  border: #6c757d solid 1px;
+  border-radius: 15px;
+  width: 500px;
+  height: 40px;
+}
+.messages button {
+  border: #6c757d solid 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
 .message {
   border: #6c757d solid 1px;
   border-radius: 15px;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 10px;
+  width: fit-content;
 }
 .message img {
-  height: 35px;
-  margin: 0 10px 0 10px;
-  border-radius: 20px;
+  height: 30px;
+  margin: 0 10px 0 5px;
+  border-radius: 15px;
 }
 .dialog img {
   height: 50px;
